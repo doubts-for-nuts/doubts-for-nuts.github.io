@@ -36,19 +36,20 @@ minima:
   hide_site_feed_link: true
   show_excerpts: true
   social_links:
-      - title: E-mail
-        icon: envelope
-        url: "mailto:jonathan.franceschi@springernature.com"
-      - title: LinkedIn
-        icon: brands fa-linkedin
-        url: "https://www.linkedin.com/in/jonathan-franceschi/"
+      - title: Google Scholar
+        icon: brands fa-google-scholar
+        url: "https://scholar.google.com/citations?user=XEyL-QwAAAAJ"
       - title: ResearchGate
         icon: brands fa-researchgate
         url: "https://www.researchgate.net/profile/Jonathan-Franceschi"
-      - title: Scholar
-        icon: brands fa-google-scholar
-        url: "https://scholar.google.com/citations?user=XEyL-QwAAAAJ"
-
+      - title: LinkedIn
+        icon: brands fa-linkedin
+        url: "https://www.linkedin.com/in/jonathan-franceschi/"
+      - title: E-mail
+        icon: envelope
+        url: "mailto:jonathan.franceschi@springernature.com"
+      
+      
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

@@ -301,3 +301,19 @@ table {
  */
 
 .katex { font-size: 1.05em; }
+
+/**
+ * myfooter
+ */
+
+.myfooter {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+.myfooter-p {
+  display: inline-grid;
+  margin: 1ex;
+}
