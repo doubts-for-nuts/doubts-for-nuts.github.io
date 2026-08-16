@@ -8,19 +8,28 @@ layout: base
   
   <!-- Columns -->
 
-  <div class="homerow">
+  <div class="homecol">
 
     <!-- Left column -->
-
-    <div class="homecolumn left">
-      <img src="/assets/home-image-test.png" alt="pixel rain">
+    <div class="left">
+      <div class="fil">
+        <!-- &nbsp; -->
+      </div>
+      <!-- <img src="/assets/home-bw.svg" alt="pixel rain" width=100%> -->
       <!-- <img src="/assets/home-image-test.png" alt="pixel rain"> -->
     </div>
 
     <!-- Right column -->
 
-    <div class="homecolumn right">
+    <div class="right">
       
+      <br></br>
+      <br></br>
+      <p>I'm Associate Editor at Springer Nature (CSE).</p>
+      <p>I have a PhD in Computational Mathematics and Decision Sciences and I'm specialized in modeling of complex systems, mainly using Kinetic Theory as a framework.<p>
+      <br></br>
+      <h1>Latest post</h1>
+
       <!-- Last post -->
       {% if site.paginate %}
         {% assign posts = paginator.posts %}
@@ -30,18 +39,18 @@ layout: base
 
       {%- if posts.size > 0 -%}
         {%- for post in posts limit:1 -%}
-          <h3>
+          <!-- <h4> -->
             <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
             </a>
-          </h3>
+          <!-- </h4> -->
           {%- if site.minima.show_excerpts -%}
             {{ post.excerpt | markdownify | strip_html }}
           {%- endif -%}
         {%- endfor -%}
       {% endif %}
 
-    </div>
+    <!-- </div> -->
 
 
 
