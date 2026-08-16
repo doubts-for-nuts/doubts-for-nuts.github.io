@@ -5,6 +5,45 @@ layout: base
 <div class="home">
   
   {{ content }}
+  
+  <!-- Columns -->
+
+  <div class="homerow">
+
+    <!-- Left column -->
+
+    <div class="homecolumn left">
+      <img src="/assets/home-image-test.png" alt="pixel rain">
+      <!-- <img src="/assets/home-image-test.png" alt="pixel rain"> -->
+    </div>
+
+    <!-- Right column -->
+
+    <div class="homecolumn right">
+      
+      <!-- Last post -->
+      {% if site.paginate %}
+        {% assign posts = paginator.posts %}
+      {% else %}
+        {% assign posts = site.posts %}
+      {% endif %}
+
+      {%- if posts.size > 0 -%}
+        {%- for post in posts limit:1 -%}
+          <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+          {%- if site.minima.show_excerpts -%}
+            {{ post.excerpt | markdownify | strip_html }}
+          {%- endif -%}
+        {%- endfor -%}
+      {% endif %}
+
+    </div>
 
 
-</div>
+
+  </div>
+

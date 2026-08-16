@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Unexpected blank plot with matplotlib"
-date: 2026-08-1
+date: 2026-08-13
 excerpt: "You run your script and an empty plot shows up."
 ---
 

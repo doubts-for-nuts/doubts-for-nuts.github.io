@@ -209,7 +209,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 4 * $spacing-unit;
+  padding: $spacing-unit 0;
   flex: 1 0 auto;
 }
 
@@ -281,7 +281,7 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
-  padding: 0 2 * $spacing-unit;
+  //padding: 0 2 * $spacing-unit;
   h1, h2, h3, h4, h5, h6 { margin-top: $spacing-unit }
 
   h2 {
@@ -422,4 +422,46 @@
   .one-half {
     width: calc(50% - (#{$spacing-unit} / 2));
   }
+}
+
+
+/**
+ * myfooter
+ */
+
+.myfooter {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+  width: 100%;
+}
+
+.myfooter-p {
+  display: inline-grid;
+  margin: 1ex;
+}
+
+/**
+ * homecolumn
+ */
+
+
+.homecolumn {
+  float: left;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.homerow:after {
+  content: "";
+  display: table;
+  clear: both;
 }
