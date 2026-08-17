@@ -22,10 +22,13 @@ title: Jonathan Franceschi
 author:
   name: Jonathan Franceschi
   email: "jonathan00franceschi@gmail.com"
+tagline: Even numbers have feelings.
 description: >- # this means to ignore newlines until "baseurl:"
   Even numbers have feelings.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jonathanfranceschi.com" # the base hostname & protocol for your site, e.g. http://example.com
+logo: /assets/web/favicon.svg
+
 
 # Build settings
 # theme: minima
@@ -50,7 +53,7 @@ minima:
       
       
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-remote-theme
 
 
