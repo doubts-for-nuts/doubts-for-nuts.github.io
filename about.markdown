@@ -4,6 +4,17 @@ title: About
 permalink: /about/
 ---
 
-<img src="/assets/jf.jpeg" style="height:30vh">
+<div class="picandtext">
+
+  <div class="picandtext-pic">
+    <img src="/assets/jf.jpeg">
+  </div>
+
+  <div class="picandtext-text">
+  	Crazy desc
+  </div>
+</div>
+
+&nbsp;
 
 The website's motto "Even numbers have feelings" is a play on the song *Mathematics*, by the artist (formerly known as) Mos Def.

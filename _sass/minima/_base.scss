@@ -297,7 +297,46 @@ table {
 }
 
 /**
- * KaTeX
+ * MathJax
  */
 
-.katex { font-size: 1.05em; }
+.MathJax { font-size: 1.05em; }
+
+
+/**
+ * Button
+ */
+
+.copy-code-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out, background-color 0.2s, color 0.2s;
+  
+  background-color: $background-color;
+  color: $text-color;
+  border: 1px solid $table-border-color;
+  
+  border-radius: 6px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.highlight:hover .copy-code-button {
+  opacity: 1;
+}
+
+.copy-code-button:hover {
+  background-color: $table-border-color;
+}
+
+.copy-code-button.copied {
+  color: #28a745 !important;
+  border-color: #28a745 !important;
+}
+

@@ -10,3 +10,10 @@ Table example
 | 1    | 2     | 3    |
 | :--- | :---: | ---: |
 | 456  | 789   | 0!?  |
+
+\\\[
+\frac 12
+\\\]
+\begin{equation}
+\int_0^1 \log x\, dx
+\end{equation}

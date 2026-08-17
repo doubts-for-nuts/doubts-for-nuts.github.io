@@ -487,7 +487,7 @@
 .gallery-item {
   margin: 5px;
   border: 1px solid #ccc;
-  width: calc(25% - 20px);
+  width: calc(25% - 15px);
   align-element: middle;
 }
 
@@ -519,6 +519,34 @@
 }
 
 
+/**
+ * Picandtext
+ */
+
+.picandtext {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.picandtext-pic {
+  margin: 1% 7.5% 1% 7.5%;
+  width: calc(50% - 15%);
+  align-element: middle;
+  //scrolling: auto;
+}
+
+.picandtext-text {
+  margin: 1% 7.5% 1% 7.5%;
+  width: calc(50% - 15%);
+  align-element: middle;
+}
+
+@media only screen and (max-width: 768px) {
+  .picandtext-pic {
+    width: calc(100% - 20px);
+  }
+}
 
 
 //  .homecolumn {
