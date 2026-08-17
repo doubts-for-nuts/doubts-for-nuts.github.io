@@ -1,20 +1,16 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 ---
 
-<div class="picandtext">
+I am an Associate Editor at Springer Nature Books' division, focusing on a portfolio in Mathematics, with a particular emphasis on Computational Science and Engineering (CSE).
 
-  <div class="picandtext-pic">
-    <img src="/assets/jf.jpeg">
-  </div>
+I have a Ph.D. in Computational Mathematics, and I am specialized in modeling of complex systems, mainly using Kinetic Theory as a framework. As a researcher, my works explored applications on the dissemination of fake news and epidemic diseases, opinions' control on networks, graphs rewiring and gradient-free methods for global optimization.
 
-  <div class="picandtext-text">
-  	Crazy desc
-  </div>
-</div>
+I have consulted on mathematical and typographical reiforcement learning from human feedback (RLHF) tasks for large language models.
 
-&nbsp;
+On this website, you can find some material from my favourite [$$\latex$$ projects](/LaTeX) that I completed in my spare time.\
+I also write [posts](/posts/) on a collection of things that I've needed to know at least once. 
 
-The website's motto "Even numbers have feelings" is a play on the song *Mathematics*, by the artist (formerly known as) Mos Def.
+For inquiries, you can contact me at <{{ site.author.email }}>.

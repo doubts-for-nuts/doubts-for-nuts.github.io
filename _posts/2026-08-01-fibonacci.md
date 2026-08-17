@@ -2,7 +2,7 @@
 layout: post
 title:  "Computing the Fibonacci sequence isn't linear"
 date: 2026-08-01
-excerpt: "Your favorite dynamic programming method is nowhere close to $$O(n)$$."
+excerpt: "Your favorite dynamic programming method is nowhere close to $$O(n).$$"
 ---
 
 

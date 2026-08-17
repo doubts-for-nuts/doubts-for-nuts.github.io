@@ -449,7 +449,8 @@
 .homecol {
   display:flex;
   justify-content:center;
-  align-items:center;
+  //align-items:center;
+  align-element: middle;
   width: 100%;
   min-height: 50vh;
   overflow: auto;
@@ -465,6 +466,7 @@
   display: inline-grid;
   margin-left: 10%;
   width: 60%;
+  align-self: center;
 }
 
 .fil {
@@ -530,21 +532,31 @@
 }
 
 .picandtext-pic {
-  margin: 1% 7.5% 1% 7.5%;
-  width: calc(50% - 15%);
+  margin: 1% 2.5% 1% 2.5%;
+  width: calc(35% - 5%);
   align-element: middle;
+  align-self: center;
   //scrolling: auto;
 }
 
 .picandtext-text {
-  margin: 1% 7.5% 1% 7.5%;
-  width: calc(50% - 15%);
+  margin: 1% 2.5% 1% 2.5%;
+  width: calc(65% - 5%);
   align-element: middle;
+  align-self: center;
 }
 
 @media only screen and (max-width: 768px) {
   .picandtext-pic {
-    width: calc(100% - 20px);
+    margin: 1% 7.5% 1% 7.5%;
+    width: calc(100% - 15%);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .picandtext-text {
+    margin: 1% 7.5% 1% 7.5%;
+    width: calc(100% - 15%);
   }
 }
 

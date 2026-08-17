@@ -1,18 +1,16 @@
 ---
 layout: page
 title: LaTeX
-permalink: /LaTeX/
-TeX: $$\mathrm{\TeX}$$
-LaTeX: $$\mathrm{\LaTeX}$$
+permalink: /LaTeX
 ---
 
-I became interested in document composition using {{ page.TeX }} when I wrote my B.Sc. thesis, and I haven't stopped since.\
-I designed and taught courses on the {{ page.LaTeX }} language at the universities of Ferrara and <a href="https://phd.unipv.it/latex-2/">Pavia</a>, Italy, at bachelor's, master's, and doctoral levels for six years.
+I became interested in document composition using $$\tex$$ when I wrote my B.Sc. thesis, and I haven't stopped since.\
+I designed and taught courses on the $$\latex$$ language at the universities of Ferrara and <a href="https://phd.unipv.it/latex-2/">Pavia</a>, Italy, at bachelor's, master's, and doctoral levels for six years.
 
 Over time, I have completed various projects aimed at academic and corporate audiences, while others I undertook purely for personal satisfaction.\
 Here are some of them.
 
-Every element displayed in this gallery, whether text or graphics, was created by me using only software and packages from the {{ page.TeX }} family.
+Every element displayed in this gallery, whether text or graphics, was created by me using only software and packages from the $$\tex$$ family.
 
 
 <div class="gallery">
